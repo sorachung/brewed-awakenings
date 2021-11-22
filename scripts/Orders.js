@@ -20,7 +20,7 @@ const findproduct = (order, allProducts) => {
 }
 
 // Function whose responsibility is to find the employee for an order
-const findemployee = (order, allEmployees) => {
+const findEmployee = (order, allEmployees) => {
     let orderEmployee = null
 
     for (const employee in allEmployees) {
