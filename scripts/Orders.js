@@ -7,7 +7,7 @@ const orders = getOrders()
 
 
 // Function whose responsibility is to find the product for an order
-const findproduct = (order, allProducts) => {
+const findProduct = (order, allProducts) => {
     let orderProduct = null
 
     for (const product of allProducts) {
